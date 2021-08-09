@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game_container {
+    position: relative;
+    Background: black;
+}
+
+.drum_container {
+    position: relative;
+    height: 73vmin;
+}
+
+
+.entire_kit {
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vmin;
+    background: url(../images/stage.jpg);
+    background-size: cover;
+    transition: opacity 1s ease-in-out;
+}
+
+.message {
+    position: absolute;
+    background: red;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    border: solid 2px;
+    padding: 10px;
+    text-align: center;
+    user-select: none;
+}
+
+.instructions {
+    list-style: none;
+}
+
+.message_content {
+    padding: 5px;
+}
+
+.score {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+    background: white;
+    padding: 3px;
+    text-align: center;
+    user-select: none;
+    z-index: 3;
+}
+
+
+.score_num {
+    font-size: 3em;
+}
+
+.start_button {
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.play_button,
+.play_button1 {
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.no_pointer {
+    pointer-events: none;
+}
+
+.low_opacity {
+    opacity: .5;
+}
+
+.hidden {
+    display: none;
+}
+
+/*set svg colors*/
+
+.cls-1 {
+    fill: #abadb0;
+    opacity: 0.28;
+}
+
+.cls-2 {
+    fill: #e6e7e8;
+}
+
+.cls-3 {
+    fill: #000000;
+}
+
+.cls-4 {
+    fill: #58595b;
+}
+
+.cls-5 {
+    fill: #d81017;
+}
+
+.cls-6 {
+    fill: #aa0815;
+}
+
+.cls-7 {
+    fill: #bcbec0;
+}
+
+.cls-8 {
+    fill: none;
+    stroke-width: 5px;
+}
+
+.cls-10,
+.cls-11,
+.cls-8 {
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.cls-10,
+.cls-11,
+.cls-9 {
+    fill: #fff;
+}
+
+.cls-10 {
+    stroke-width: 13px;
+}
+
+.cls-12 {
+    fill: #fff200;
+}
+
+.cls-13 {
+    fill: #f0ed78;
+}
